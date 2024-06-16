@@ -29,7 +29,7 @@ namespace clinica
 
         }
 
-        
+
         private int AsignarTurno(int idPaciente, int idAgendaturno, int idProfesional)
         {
             int salida = 0;
@@ -359,9 +359,9 @@ namespace clinica
                             string apellidoProfesional = reader.GetString("Apellido");
                             string nombre = $"{nombreProfesional}";
                             string apellido = $"{apellidoProfesional}";
-                            cbxProfesionales.Items.Add(new KeyValuePair<string, string>(nombre, apellido));
+                            //cbxProfesionales.Items.Add(new KeyValuePair<string, string>(nombre, apellido));
 
-                            //cbxProfesionales.Items.Add(new KeyValuePair<int, string>(idProfesional,nombreProfesional));
+                            cbxProfesionales.Items.Add(new KeyValuePair<int, string>(idProfesional, nombreProfesional));
                         }
                     }
                 }
@@ -437,7 +437,7 @@ namespace clinica
 
         }
 
-     
+
 
         private void lblFechaDesde_Click(object sender, EventArgs e)
         {
@@ -476,6 +476,6 @@ namespace clinica
             Inscripcion.Show();
         }
 
-        
+
     }
 }

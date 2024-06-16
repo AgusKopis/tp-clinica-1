@@ -12,12 +12,8 @@
     <PackageReference Include="MySql.Data" Version="8.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="frmAtencionConsultorios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="frmAtencionConsultorios.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="frmAtencionConsultorios.cs" />
+    <Compile Update="frmAtencionConsultorios.cs" />
     <Compile Update="frmSalaDeEsperaConsultorios.cs" />
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
